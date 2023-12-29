@@ -8,8 +8,7 @@ float playerPositionY = 0.f;
 internalVariable void simulateGame(Input* input) {
 	clearScreen(0xff5500);
 	
-	
-	
+
 	if (pressed(BUTTON_UP)) playerPositionY += 1.f;
 	if (pressed(BUTTON_DOWN)) playerPositionY -= 1.f;
 	if (pressed(BUTTON_LEFT)) playerPositionX -= 1.f;
